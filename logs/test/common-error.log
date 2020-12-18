@@ -1,0 +1,16 @@
+2020-12-18 21:33:13,790 ERROR 10932 nodejs.ServerNoResponseError: server 127.0.0.1:58104 no response in 20001ms, maybe the socket is end on the other side. (address: 127.0.0.1:58104)
+    at Timeout._onTimeout (F:\vscode\egg\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ServerNoResponseError"
+pid: 10932
+hostname: USER-20200322BW
+
+2020-12-18 21:43:25,699 ERROR 15208 nodejs.ClusterClientNoResponseError: client no response in 651910ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\vscode\egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 15208
+hostname: USER-20200322BW
+

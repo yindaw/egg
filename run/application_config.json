@@ -164,12 +164,15 @@
       "maxDays": 31
     },
     "static": {
-      "prefix": "/public/",
+      "prefix": "/",
       "dir": "F:\\vscode\\egg\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
-      "maxFiles": 1000
+      "maxFiles": 1000,
+      "alias": {
+        "/": "/index.html"
+      }
     },
     "view": {
       "root": "F:\\vscode\\egg\\app\\view",
@@ -445,12 +448,12 @@
     },
     "static": {
       "enable": true,
-      "package": "egg-static",
       "name": "static",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\vscode\\egg\\node_modules\\egg\\config\\plugin.js",
+      "from": "F:\\vscode\\egg\\config\\plugin.js",
+      "package": "egg-static",
       "path": "F:\\vscode\\egg\\node_modules\\egg-static",
       "version": "2.2.0"
     },

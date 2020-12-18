@@ -52,3 +52,15 @@
 2020-12-18 21:14:00,623 INFO 10336 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2020-12-18 21:14:00,623 INFO 10336 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
 2020-12-18 21:14:00,623 INFO 10336 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 21:14:47,652 INFO 17256 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 21:14:47,652 INFO 17256 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 21:14:47,652 INFO 17256 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 21:28:53,793 INFO 15208 [Timer] F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 25266209ms at 2020-12-19 04:30:00.002
+2020-12-18 21:28:53,793 INFO 15208 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 9066207ms at 2020-12-19 00:00:00.000
+2020-12-18 21:28:53,793 INFO 15208 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 9067207ms at 2020-12-19 00:00:01.000
+2020-12-18 21:28:53,672 INFO 10932 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 21:28:53,672 INFO 10932 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 21:28:53,672 INFO 10932 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 21:43:27,177 INFO 9044 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 21:43:27,177 INFO 9044 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 21:43:27,177 INFO 9044 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

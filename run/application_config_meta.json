@@ -1,5 +1,16 @@
 {
   "keys": "F:\\vscode\\egg\\config\\config.default.js",
+  "static": {
+    "prefix": "F:\\vscode\\egg\\config\\config.default.js",
+    "alias": {
+      "/": "F:\\vscode\\egg\\config\\config.default.js"
+    },
+    "dir": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
     "key": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
@@ -129,14 +140,6 @@
     "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js",
     "rotateDuration": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js",
     "maxDays": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js"
-  },
-  "static": {
-    "prefix": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js"
   },
   "view": {
     "root": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",

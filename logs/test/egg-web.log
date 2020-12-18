@@ -208,3 +208,53 @@
 2020-12-18 21:14:00,718 INFO 10336 [egg:core] dump config after load, 4ms
 2020-12-18 21:14:00,727 INFO 10336 [egg-watcher:application] watcher start success
 2020-12-18 21:14:00,734 INFO 10336 [egg:core] dump config after ready, 5ms
+2020-12-18 21:14:47,625 INFO 17256 [egg:logger] init all loggers with options: {"dir":"F:\\vscode\\egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-18 21:14:47,653 INFO 17256 [egg-multipart] stream mode enable
+2020-12-18 21:14:47,740 INFO 17256 [egg-static] starting static serve /public/ -> F:\vscode\egg\app\public
+2020-12-18 21:14:47,742 INFO 17256 [egg-security] use csrf middleware
+2020-12-18 21:14:47,743 INFO 17256 [egg-security] use methodnoallow middleware
+2020-12-18 21:14:47,743 INFO 17256 [egg-security] use noopen middleware
+2020-12-18 21:14:47,744 INFO 17256 [egg-security] use nosniff middleware
+2020-12-18 21:14:47,744 INFO 17256 [egg-security] use xssProtection middleware
+2020-12-18 21:14:47,744 INFO 17256 [egg-security] use xframe middleware
+2020-12-18 21:14:47,745 INFO 17256 [egg-security] use dta middleware
+2020-12-18 21:14:47,745 INFO 17256 [egg-security] compose 7 middlewares into one security middleware
+2020-12-18 21:14:47,756 INFO 17256 [egg:core] dump config after load, 4ms
+2020-12-18 21:14:47,765 INFO 17256 [egg-watcher:application] watcher start success
+2020-12-18 21:14:47,773 INFO 17256 [egg:core] dump config after ready, 6ms
+2020-12-18 21:28:53,647 INFO 10932 [egg:logger] init all loggers with options: {"dir":"F:\\vscode\\egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-18 21:28:53,672 INFO 10932 [egg-multipart] stream mode enable
+2020-12-18 21:28:53,753 INFO 10932 [egg-static] starting static serve /public/ -> F:\vscode\egg\app\public
+2020-12-18 21:28:53,756 INFO 10932 [egg-security] use csrf middleware
+2020-12-18 21:28:53,756 INFO 10932 [egg-security] use methodnoallow middleware
+2020-12-18 21:28:53,757 INFO 10932 [egg-security] use noopen middleware
+2020-12-18 21:28:53,757 INFO 10932 [egg-security] use nosniff middleware
+2020-12-18 21:28:53,758 INFO 10932 [egg-security] use xssProtection middleware
+2020-12-18 21:28:53,759 INFO 10932 [egg-security] use xframe middleware
+2020-12-18 21:28:53,759 INFO 10932 [egg-security] use dta middleware
+2020-12-18 21:28:53,759 INFO 10932 [egg-security] compose 7 middlewares into one security middleware
+2020-12-18 21:28:53,770 INFO 10932 [egg:core] dump config after load, 4ms
+2020-12-18 21:28:53,781 INFO 10932 [egg-watcher:application] watcher start success
+2020-12-18 21:28:53,788 INFO 10932 [egg:core] dump config after ready, 5ms
+2020-12-18 21:43:25,698 ERROR 10932 nodejs.ServerNoResponseError: server 127.0.0.1:58104 no response in 20001ms, maybe the socket is end on the other side. (address: 127.0.0.1:58104)
+    at Timeout._onTimeout (F:\vscode\egg\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ServerNoResponseError"
+pid: 10932
+hostname: USER-20200322BW
+
+2020-12-18 21:43:27,152 INFO 9044 [egg:logger] init all loggers with options: {"dir":"F:\\vscode\\egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-18 21:43:27,177 INFO 9044 [egg-multipart] stream mode enable
+2020-12-18 21:43:27,263 INFO 9044 [egg-static] starting static serve / -> F:\vscode\egg\app\public
+2020-12-18 21:43:27,265 INFO 9044 [egg-security] use csrf middleware
+2020-12-18 21:43:27,265 INFO 9044 [egg-security] use methodnoallow middleware
+2020-12-18 21:43:27,266 INFO 9044 [egg-security] use noopen middleware
+2020-12-18 21:43:27,266 INFO 9044 [egg-security] use nosniff middleware
+2020-12-18 21:43:27,267 INFO 9044 [egg-security] use xssProtection middleware
+2020-12-18 21:43:27,267 INFO 9044 [egg-security] use xframe middleware
+2020-12-18 21:43:27,268 INFO 9044 [egg-security] use dta middleware
+2020-12-18 21:43:27,268 INFO 9044 [egg-security] compose 7 middlewares into one security middleware
+2020-12-18 21:43:27,279 INFO 9044 [egg:core] dump config after load, 4ms
+2020-12-18 21:43:27,288 INFO 9044 [egg-watcher:application] watcher start success
+2020-12-18 21:43:27,294 INFO 9044 [egg:core] dump config after ready, 5ms
