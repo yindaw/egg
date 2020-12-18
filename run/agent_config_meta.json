@@ -1,0 +1,272 @@
+{
+  "keys": "F:\\vscode\\egg\\config\\config.default.js",
+  "session": {
+    "maxAge": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "F:\\vscode\\egg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "F:\\vscode\\egg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "F:\\vscode\\egg\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "F:\\vscode\\egg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "F:\\vscode\\egg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "F:\\vscode\\egg\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "F:\\vscode\\egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "F:\\vscode\\egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "F:\\vscode\\egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "F:\\vscode\\egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "F:\\vscode\\egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "F:\\vscode\\egg\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "F:\\vscode\\egg\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "F:\\vscode\\egg\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "name": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "version": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "description": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "main": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "dev": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "url": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "license": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "bugs": {
+      "url": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "homepage": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "strict": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "depth": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "env": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "level": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "logging": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "port": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+}
