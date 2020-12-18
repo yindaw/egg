@@ -7,3 +7,48 @@
 2020-12-18 17:20:16,253 INFO 1728 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2020-12-18 17:20:16,253 INFO 1728 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
 2020-12-18 17:20:16,253 INFO 1728 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 20:49:05,561 INFO 8900 [Timer] F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 27654442ms at 2020-12-19 04:30:00.003
+2020-12-18 20:49:05,561 INFO 8900 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 11454439ms at 2020-12-19 00:00:00.000
+2020-12-18 20:49:05,561 INFO 8900 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 11455439ms at 2020-12-19 00:00:01.000
+2020-12-18 20:49:05,439 INFO 12680 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 20:49:05,439 INFO 12680 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 20:49:05,439 INFO 12680 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 20:50:10,238 INFO 1524 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 20:50:10,238 INFO 1524 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 20:50:10,238 INFO 1524 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 20:52:29,769 INFO 7372 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 20:52:29,769 INFO 7372 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 20:52:29,769 INFO 7372 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 20:54:03,507 INFO 17236 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 20:54:03,507 INFO 17236 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 20:54:03,507 INFO 17236 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 20:58:01,284 INFO 5952 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 20:58:01,284 INFO 5952 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 20:58:01,284 INFO 5952 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 20:59:30,726 INFO 8704 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 20:59:30,726 INFO 8704 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 20:59:30,726 INFO 8704 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 20:59:40,948 INFO 9804 [Timer] F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 27019054ms at 2020-12-19 04:30:00.002
+2020-12-18 20:59:40,949 INFO 9804 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 10819052ms at 2020-12-19 00:00:00.001
+2020-12-18 20:59:40,949 INFO 9804 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 10820051ms at 2020-12-19 00:00:01.000
+2020-12-18 20:59:40,818 INFO 576 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 20:59:40,818 INFO 576 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 20:59:40,818 INFO 576 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 21:09:37,683 INFO 3400 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 21:09:37,683 INFO 3400 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 21:09:37,683 INFO 3400 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 21:10:32,002 INFO 16092 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 21:10:32,002 INFO 16092 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 21:10:32,002 INFO 16092 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 21:11:23,774 INFO 15184 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 21:11:23,774 INFO 15184 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 21:11:23,774 INFO 15184 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 21:12:42,194 INFO 8128 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 21:12:42,194 INFO 8128 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 21:12:42,194 INFO 8128 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 21:13:32,532 INFO 4604 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 21:13:32,532 INFO 4604 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 21:13:32,532 INFO 4604 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-18 21:14:00,623 INFO 10336 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-18 21:14:00,623 INFO 10336 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-18 21:14:00,623 INFO 10336 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
