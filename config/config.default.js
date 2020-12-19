@@ -1,8 +1,18 @@
 exports.keys = "duyi.com";
 
-exports.static = {
-    prefix: "/",
-    alias: {
-        "/": "/index.html"
+exports.view = {
+   mapping: {
+        ".ejs": "ejs"
+   },
+   defaultViewEngine: "ejs",
+   defaultExtension: ".ejs"
+}
+
+//安全配置
+exports.security = {
+    csrf: {
+        enable: false,
     }
 }
+
+exports.$apiBase = "http://study.yuanjin.tech";

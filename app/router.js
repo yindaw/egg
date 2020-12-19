@@ -1,8 +1,6 @@
 module.exports = (app) => {
     const { router } = app;
-    router.get("/login", "sub.home.login");
-    router.get("/signed-in", "sub.home.login");
-
-
-    router.resources("blogs", "/b", "blog");
+    router.get("/", "home.index");
+    router.get("/login", "user.login");
+    router.post("/login", "user.handleLogin");
 }

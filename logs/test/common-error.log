@@ -14,3 +14,34 @@ name: "ClusterClientNoResponseError"
 pid: 15208
 hostname: USER-20200322BW
 
+2020-12-19 11:23:32,464 ERROR 1872 nodejs.ServerNoResponseError: server 127.0.0.1:55709 no response in 20001ms, maybe the socket is end on the other side. (address: 127.0.0.1:55709)
+    at Timeout._onTimeout (F:\vscode\egg\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ServerNoResponseError"
+pid: 1872
+hostname: USER-20200322BW
+
+2020-12-19 11:38:02,020 ERROR 2052 [-/127.0.0.1/-/10ms GET /login] nodejs.SyntaxError: Unexpected token 'if' in F:\vscode\egg\app\view\login.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (F:\vscode\egg\node_modules\ejs\lib\ejs.js:652:12)
+    at Object.compile (F:\vscode\egg\node_modules\ejs\lib\ejs.js:392:16)
+    at handleCache (F:\vscode\egg\node_modules\ejs\lib\ejs.js:215:18)
+    at tryHandleCache (F:\vscode\egg\node_modules\ejs\lib\ejs.js:254:16)
+    at Object.exports.renderFile (F:\vscode\egg\node_modules\ejs\lib\ejs.js:485:10)
+    at F:\vscode\egg\node_modules\egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (F:\vscode\egg\node_modules\egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (F:\vscode\egg\node_modules\egg-view-ejs\lib\view.js:28:36)
+
+pid: 2052
+hostname: USER-20200322BW
+

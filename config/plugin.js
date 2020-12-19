@@ -1,6 +1,6 @@
 module.exports = {
-    static: {
+    ejs: {
         enable: true,
-        package: "egg-static"
+        package: "egg-view-ejs"
     }
 };

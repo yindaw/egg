@@ -1,5 +1,14 @@
 {
   "keys": "F:\\vscode\\egg\\config\\config.default.js",
+  "view": {
+    "mapping": {
+      ".ejs": "F:\\vscode\\egg\\config\\config.default.js"
+    },
+    "defaultViewEngine": "F:\\vscode\\egg\\config\\config.default.js",
+    "defaultExtension": "F:\\vscode\\egg\\config\\config.default.js",
+    "root": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.local.js"
+  },
   "session": {
     "maxAge": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
     "key": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
@@ -138,12 +147,13 @@
     "buffer": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
     "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js"
   },
-  "view": {
-    "root": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js"
+  "ejs": {
+    "root": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "cache": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.local.js",
+    "debug": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "delimiter": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "strict": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js"
   },
   "env": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
   "name": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
@@ -160,7 +170,8 @@
     "description": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "main": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+      "egg": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-ejs": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
