@@ -1,17 +1,17 @@
 {
   "keys": "F:\\vscode\\egg\\config\\config.default.js",
-  "session": {
-    "maxAge": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js"
+  "view": {
+    "mapping": {
+      ".ejs": "F:\\vscode\\egg\\config\\config.default.js"
+    },
+    "defaultViewEngine": "F:\\vscode\\egg\\config\\config.default.js",
+    "defaultExtension": "F:\\vscode\\egg\\config\\config.default.js",
+    "root": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.local.js"
   },
   "security": {
-    "domainWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "enable": "F:\\vscode\\egg\\config\\config.default.js",
       "type": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "ignoreJSON": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "useSession": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
@@ -22,6 +22,9 @@
       "queryName": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "refererWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
     },
+    "domainWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "value": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
@@ -59,6 +62,13 @@
       "ipBlackList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "checkAddress": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
     }
+  },
+  "$apiBase": "F:\\vscode\\egg\\config\\config.default.js",
+  "session": {
+    "maxAge": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
@@ -138,12 +148,13 @@
     "buffer": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
     "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js"
   },
-  "view": {
-    "root": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js"
+  "ejs": {
+    "root": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "cache": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.local.js",
+    "debug": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "delimiter": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "strict": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js"
   },
   "env": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
   "name": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
@@ -160,7 +171,9 @@
     "description": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "main": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+      "axios": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "egg": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-ejs": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"

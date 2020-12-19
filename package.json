@@ -4,7 +4,9 @@
   "description": "\\",
   "main": "index.js",
   "dependencies": {
-    "egg": "^2.29.1"
+    "axios": "^0.21.0",
+    "egg": "^2.29.1",
+    "egg-view-ejs": "^2.0.1"
   },
   "devDependencies": {
     "egg-bin": "^4.15.0"

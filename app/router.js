@@ -1,8 +1,8 @@
 module.exports = (app) => {
     const { router } = app;
-    router.get("/login", "sub.home.login");
-    router.get("/signed-in", "sub.home.login");
-
-
-    router.resources("blogs", "/b", "blog");
+    const verifyToken = app.middleware.verifyToken({}, app);
+    router.get("/", verifyToken, "home.index");
+    router.get("/a.css", verifyToken, "home.css");
+    router.get("/login", "user.login");
+    router.post("/login", "user.handleLogin");
 }
