@@ -73,14 +73,14 @@
   },
   "logger": {
     "dir": "F:\\vscode\\egg\\config\\config.default.js",
+    "appLogName": "F:\\vscode\\egg\\config\\config.default.js",
+    "level": "F:\\vscode\\egg\\config\\config.default.js",
+    "outputJSON": "F:\\vscode\\egg\\config\\config.default.js",
     "encoding": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "env": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "level": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "disableConsoleAfterReady": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "buffer": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "coreLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "agentLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "errorLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
@@ -88,6 +88,12 @@
       "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.local.js"
     },
     "allowDebugAtProd": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "file": "F:\\vscode\\egg\\config\\config.default.js",
+      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
   },
   "$apiBase": "F:\\vscode\\egg\\config\\config.default.js",
   "session": {
@@ -122,12 +128,6 @@
     "eventSources": {
       "default": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.default.js"
-    }
-  },
-  "customLogger": {
-    "scheduleLogger": {
-      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "F:\\vscode\\egg\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {

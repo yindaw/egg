@@ -124,7 +124,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "egg-schedule.log"
+        "file": "F:\\vscode\\egg\\logs\\schedule.log"
       }
     },
     "schedule": {
@@ -266,12 +266,12 @@
       "dir": "F:\\vscode\\egg\\logs",
       "encoding": "utf8",
       "env": "local",
-      "level": "INFO",
+      "level": "DEBUG",
       "consoleLevel": "INFO",
       "disableConsoleAfterReady": false,
-      "outputJSON": false,
+      "outputJSON": true,
       "buffer": true,
-      "appLogName": "test-web.log",
+      "appLogName": "duyi-app-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",

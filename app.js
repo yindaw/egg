@@ -7,16 +7,16 @@ module.exports = app => {
 }
 
 
-app.sessionStore = {
-    async get(key) {
-        console.log("get session", key);
-        return temp[key];
-    },
-    async set(key, value, maxAge) {
-        console.log("set session", key, value, maxAge);
-        temp[key] = value;
-    },
-    async destory(key) {
+// app.sessionStore = {
+//     async get(key) {
+//         console.log("get session", key);
+//         return temp[key];
+//     },
+//     async set(key, value, maxAge) {
+//         console.log("set session", key, value, maxAge);
+//         temp[key] = value;
+//     },
+//     async destory(key) {
         
-    }
-}
+//     }
+// }
