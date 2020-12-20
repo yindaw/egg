@@ -9,9 +9,23 @@
     "root": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
     "cache": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.local.js"
   },
+  "passportGithub": {
+    "key": "F:\\vscode\\egg\\config\\config.default.js",
+    "secret": "F:\\vscode\\egg\\config\\config.default.js",
+    "callbackURL": "F:\\vscode\\egg\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js"
+  },
   "security": {
+    "domainWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "F:\\vscode\\egg\\config\\config.default.js",
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "type": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "ignoreJSON": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "useSession": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
@@ -22,9 +36,6 @@
       "queryName": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "refererWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "value": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
@@ -63,45 +74,6 @@
       "checkAddress": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
-  "redis": {
-    "client": {
-      "port": "F:\\vscode\\egg\\config\\config.default.js",
-      "host": "F:\\vscode\\egg\\config\\config.default.js",
-      "password": "F:\\vscode\\egg\\config\\config.default.js",
-      "db": "F:\\vscode\\egg\\config\\config.default.js"
-    }
-  },
-  "logger": {
-    "dir": "F:\\vscode\\egg\\config\\config.default.js",
-    "appLogName": "F:\\vscode\\egg\\config\\config.default.js",
-    "level": "F:\\vscode\\egg\\config\\config.default.js",
-    "outputJSON": "F:\\vscode\\egg\\config\\config.default.js",
-    "encoding": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "env": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "coreLogger": {
-      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.local.js"
-    },
-    "allowDebugAtProd": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
-  },
-  "customLogger": {
-    "scheduleLogger": {
-      "file": "F:\\vscode\\egg\\config\\config.default.js",
-      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg-schedule\\config\\config.default.js"
-    }
-  },
-  "$apiBase": "F:\\vscode\\egg\\config\\config.default.js",
-  "session": {
-    "maxAge": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "F:\\vscode\\egg\\node_modules\\egg-session\\config\\config.default.js"
-  },
   "helper": {
     "shtml": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
   },
@@ -128,6 +100,12 @@
     "eventSources": {
       "default": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "F:\\vscode\\egg\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
@@ -199,6 +177,8 @@
     "dependencies": {
       "axios": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport-github": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-redis": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-view-ejs": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
@@ -252,6 +232,24 @@
       "parameterLimit": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "onerror": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "env": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "level": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
     "enableDNSCache": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",

@@ -6,6 +6,8 @@
   "dependencies": {
     "axios": "^0.21.0",
     "egg": "^2.29.1",
+    "egg-passport": "^2.1.1",
+    "egg-passport-github": "^1.0.0",
     "egg-redis": "^2.4.0",
     "egg-scripts": "^2.13.0",
     "egg-view-ejs": "^2.0.1"
@@ -14,10 +16,7 @@
     "egg-bin": "^4.15.0"
   },
   "scripts": {
-    "dev": "npm run dev:egg & npm run dev:vue",
-    "dev:egg": "egg-bin dev",
-    "dev:vue": "cd client && npm run serve",
-    "build": "cd client && npm run build"
+    "dev": "egg-bin dev"
   },
   "repository": {
     "type": "git",

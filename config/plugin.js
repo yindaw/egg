@@ -5,7 +5,12 @@ module.exports = {
     }
 };
 
-exports.redis = {
+exports.passport = {
     enable: true,
-    package: "egg-redis"
+    package: "egg-passport",
+}
+
+exports.passportGithub = {
+    enable: true,
+    package: "egg-passport-github"
 }

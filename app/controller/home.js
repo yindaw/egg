@@ -1,12 +1,17 @@
-const Controller = require("egg").Controller;
-module.exports = class extends Controller {
+module.exports = class extends require("egg").Controller{
     async index () {
-        this.ctx.logger.debug("不要访问首页");
-        const provinces = await this.ctx.service.local.getProvinces();
-        var model = {
-            title: "首页",
-            provinces
-        }
-        await this.ctx.render("home", model);
+       const model = {};
+       if (this.ctx.isAuthenticated()) {
+        //已经授权过了
+        model.isLogin = true;
+       } else {
+           model.isLogin = false;
+       }
+       await this.ctx.render("home.ejs", model);
+    }
+
+    async loginOut () {
+       await this.ctx.logout();
+       this.ctx.redirect("/");
     }
 }
