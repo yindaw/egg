@@ -28,7 +28,7 @@ exports.redis = {
 
 exports.cluster = {
     listen: {
-        port: 7000,
+        port: 5000,
     }
 }
 

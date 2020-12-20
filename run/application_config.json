@@ -159,8 +159,9 @@
       "dir": "F:\\vscode\\egg\\app\\public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
     },
     "view": {
       "root": [
@@ -181,7 +182,7 @@
       "delimiter": null,
       "strict": false
     },
-    "env": "cloud",
+    "env": "prod",
     "name": "test",
     "keys": "<String len: 8>",
     "cookies": {},
@@ -200,6 +201,7 @@
         "axios": "^0.21.0",
         "egg": "^2.29.1",
         "egg-redis": "^2.4.0",
+        "egg-scripts": "^2.13.0",
         "egg-view-ejs": "^2.0.1"
       },
       "devDependencies": {
@@ -207,8 +209,8 @@
       },
       "scripts": {
         "dev": "egg-bin dev --sticky",
-        "box": "egg-bin dev --sticky --env=box --sticky",
-        "cloud": "egg-bin dev --sticky --env=cloud --sticky"
+        "start": "egg-scripts start --daemon",
+        "stop": "egg-scripts stop"
       },
       "repository": {
         "type": "git",
@@ -257,7 +259,7 @@
     "logger": {
       "dir": "C:\\Users\\Administrator\\logs\\test",
       "encoding": "utf8",
-      "env": "cloud",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
       "disableConsoleAfterReady": true,
@@ -311,7 +313,7 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 7000,
+        "port": 5000,
         "hostname": ""
       }
     },

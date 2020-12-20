@@ -152,8 +152,9 @@
     "dir": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
     "dynamic": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
     "preload": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js"
+    "buffer": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.prod.js",
+    "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxAge": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.prod.js"
   },
   "ejs": {
     "root": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
@@ -181,6 +182,7 @@
       "axios": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-redis": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-view-ejs": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
@@ -188,8 +190,8 @@
     },
     "scripts": {
       "dev": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-      "box": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-      "cloud": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+      "start": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "stop": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
       "type": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
