@@ -14,7 +14,10 @@
     "egg-bin": "^4.15.0"
   },
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "npm run dev:egg & npm run dev:vue",
+    "dev:egg": "egg-bin dev",
+    "dev:vue": "cd client && npm run serve",
+    "build": "cd client && npm run build"
   },
   "repository": {
     "type": "git",

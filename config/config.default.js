@@ -13,7 +13,8 @@ exports.view = {
 exports.security = {
     csrf: {
         enable: false,
-    }
+    },
+    domainWhiteList: ["www.domian.com"]
 }
 
 //配置redis
@@ -23,6 +24,12 @@ exports.redis = {
         host: "127.0.0.1",
         password: "", 
         db: 0
+    }
+}
+
+exports.cluster = {
+    listen: {
+        port: 7000
     }
 }
 
