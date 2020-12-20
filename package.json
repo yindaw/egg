@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "\\",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "egg": "^2.29.1",
+    "egg-redis": "^2.4.0",
+    "egg-scripts": "^2.13.0",
+    "egg-view-ejs": "^2.0.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0"
+  },
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yindaw/egg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yindaw/egg/issues"
+  },
+  "homepage": "https://github.com/yindaw/egg#readme"
+}
