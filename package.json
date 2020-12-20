@@ -13,7 +13,9 @@
     "egg-bin": "^4.15.0"
   },
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev --sticky",
+    "box": "egg-bin dev --sticky --env=box --sticky",
+    "cloud": "egg-bin dev --sticky --env=cloud --sticky"
   },
   "repository": {
     "type": "git",

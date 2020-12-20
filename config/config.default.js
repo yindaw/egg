@@ -26,5 +26,11 @@ exports.redis = {
 }
 
 
+exports.cluster = {
+    listen: {
+        port: 7000,
+    }
+}
+
 
 exports.$apiBase = "http://study.yuanjin.tech";
