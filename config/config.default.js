@@ -1,4 +1,5 @@
 exports.keys = "duyi.com";
+const path = require("path");
 
 exports.view = {
    mapping: {
@@ -20,15 +21,24 @@ exports.redis = {
     client: {
         port: 6379,
         host: "127.0.0.1",
-        password: "",
+        password: "", 
         db: 0
     }
 }
 
 
-exports.cluster = {
-    listen: {
-        port: 5000,
+
+//与日志星相关的配置
+exports.logger = {
+    dir: path.resolve(__dirname, "../logs"),
+    appLogName: "duyi-app-web.log",
+    level: "DEBUG",
+    outputJSON: true,
+}
+
+exports.customLogger = {
+        scheduleLogger: {
+            file: path.resolve(__dirname, "../logs/schedule.log")
     }
 }
 

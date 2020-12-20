@@ -71,12 +71,23 @@
       "db": "F:\\vscode\\egg\\config\\config.default.js"
     }
   },
-  "cluster": {
-    "listen": {
-      "port": "F:\\vscode\\egg\\config\\config.default.js",
-      "path": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
-    }
+  "logger": {
+    "dir": "F:\\vscode\\egg\\config\\config.default.js",
+    "encoding": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "env": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "level": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
   },
   "$apiBase": "F:\\vscode\\egg\\config\\config.default.js",
   "session": {
@@ -196,9 +207,7 @@
       "egg-bin": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {
-      "dev": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-      "start": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-      "stop": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+      "dev": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
       "type": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
@@ -244,24 +253,6 @@
     },
     "onerror": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
   },
-  "logger": {
-    "dir": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "env": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "level": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "coreLogger": {
-      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.local.js"
-    },
-    "allowDebugAtProd": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
-  },
   "httpclient": {
     "enableDNSCache": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "dnsCacheLookupInterval": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
@@ -289,6 +280,13 @@
   "coreMiddleware": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
   "workerStartTimeout": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
   "serverTimeout": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "port": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
   "clusterClient": {
     "maxWaitTime": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "responseTimeout": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"

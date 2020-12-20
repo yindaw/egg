@@ -185,9 +185,7 @@
         "egg-bin": "^4.15.0"
       },
       "scripts": {
-        "dev": "egg-bin dev",
-        "start": "egg-scripts --port=5001 start --daemon --title=duyi-egg",
-        "stop": "egg-scripts stop --title=duyi-egg"
+        "dev": "egg-bin dev"
       },
       "repository": {
         "type": "git",
@@ -234,7 +232,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "F:\\vscode\\egg\\logs\\test",
+      "dir": "F:\\vscode\\egg\\logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -288,7 +286,7 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 5000,
+        "port": 7001,
         "hostname": ""
       }
     },
