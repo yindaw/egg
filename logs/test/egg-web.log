@@ -793,3 +793,16 @@ hostname: USER-20200322BW
 2020-12-19 21:55:30,116 INFO 16364 [egg:core] dump config after load, 6ms
 2020-12-19 21:55:30,130 INFO 16364 [egg-watcher:application] watcher start success
 2020-12-19 21:55:30,142 INFO 16364 [egg:core] dump config after ready, 10ms
+2020-12-19 21:55:37,477 INFO 8520 [egg:logger] init all loggers with options: {"dir":"F:\\vscode\\egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-19 21:55:37,511 INFO 8520 [egg-multipart] stream mode enable
+2020-12-19 21:55:37,737 INFO 8520 [egg-static] starting static serve /public/ -> F:\vscode\egg\app\public
+2020-12-19 21:55:37,741 INFO 8520 [egg-security] use methodnoallow middleware
+2020-12-19 21:55:37,742 INFO 8520 [egg-security] use noopen middleware
+2020-12-19 21:55:37,743 INFO 8520 [egg-security] use nosniff middleware
+2020-12-19 21:55:37,744 INFO 8520 [egg-security] use xssProtection middleware
+2020-12-19 21:55:37,744 INFO 8520 [egg-security] use xframe middleware
+2020-12-19 21:55:37,745 INFO 8520 [egg-security] use dta middleware
+2020-12-19 21:55:37,745 INFO 8520 [egg-security] compose 6 middlewares into one security middleware
+2020-12-19 21:55:37,760 INFO 8520 [egg:core] dump config after load, 6ms
+2020-12-19 21:55:37,774 INFO 8520 [egg-watcher:application] watcher start success
+2020-12-19 21:55:37,793 INFO 8520 [egg:core] dump config after ready, 15ms

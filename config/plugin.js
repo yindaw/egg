@@ -4,3 +4,8 @@ module.exports = {
         package: "egg-view-ejs"
     }
 };
+
+exports.redis = {
+    enable: true,
+    package: "egg-redis"
+}
