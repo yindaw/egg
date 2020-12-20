@@ -120,3 +120,33 @@ hostname: USER-20200322BW
 pid: 14444
 hostname: USER-20200322BW
 
+2020-12-20 12:05:50,770 ERROR 15924 [Job#1608437148675764821004257001] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 2093ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:09,461 ERROR 18376 [Job#1608437169269765026942390001] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 190ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:14,429 ERROR 18376 [Job#1608437174270765076950394002] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 158ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:19,433 ERROR 18376 [Job#1608437179271765126957970003] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 162ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:24,455 ERROR 18376 [Job#1608437184273765176976436004] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 181ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:29,437 ERROR 18376 [Job#1608437189274765226986679005] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 163ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:35,428 ERROR 18376 [Job#1608437194274765276991372006] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 1153ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:39,418 ERROR 18376 [Job#1608437199275765327005457007] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 142ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:44,433 ERROR 18376 [Job#1608437204276765377010203008] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 157ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:49,434 ERROR 18376 [Job#1608437209277765427016854009] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 157ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

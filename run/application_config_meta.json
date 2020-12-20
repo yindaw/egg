@@ -7,7 +7,7 @@
     "defaultViewEngine": "F:\\vscode\\egg\\config\\config.default.js",
     "defaultExtension": "F:\\vscode\\egg\\config\\config.default.js",
     "root": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.default.js"
+    "cache": "F:\\vscode\\egg\\node_modules\\egg-view\\config\\config.local.js"
   },
   "security": {
     "csrf": {
@@ -30,7 +30,7 @@
       "value": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
+      "enable": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.local.js",
       "maxAge": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js",
       "includeSubdomains": "F:\\vscode\\egg\\node_modules\\egg-security\\config\\config.default.js"
     },
@@ -107,7 +107,7 @@
     "cookieMaxAge": "F:\\vscode\\egg\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.default.js",
+    "type": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
       "default": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "F:\\vscode\\egg\\node_modules\\egg-watcher\\config\\config.default.js"
@@ -138,6 +138,14 @@
       "cron": "F:\\vscode\\egg\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
+  "development": {
+    "watchDirs": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "F:\\vscode\\egg\\node_modules\\egg-development\\config\\config.default.js"
+  },
   "logrotator": {
     "filesRotateByHour": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js",
     "hourDelimiter": "F:\\vscode\\egg\\node_modules\\egg-logrotator\\config\\config.default.js",
@@ -152,13 +160,12 @@
     "dir": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
     "dynamic": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
     "preload": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.prod.js",
-    "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
-    "maxAge": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.prod.js"
+    "buffer": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "F:\\vscode\\egg\\node_modules\\egg-static\\config\\config.default.js"
   },
   "ejs": {
     "root": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
-    "cache": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "cache": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.local.js",
     "debug": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
     "compileDebug": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
     "delimiter": "F:\\vscode\\egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
@@ -250,7 +257,9 @@
     "coreLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "agentLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
     "errorLogName": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
-    "coreLogger": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.local.js"
+    },
     "allowDebugAtProd": "F:\\vscode\\egg\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {

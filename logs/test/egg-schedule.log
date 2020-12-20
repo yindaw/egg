@@ -256,3 +256,69 @@
 2020-12-20 11:27:58,946 INFO 13532 [Timer] F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 61321057ms at 2020-12-21 04:30:00.003
 2020-12-20 11:27:58,946 INFO 13532 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 45121054ms at 2020-12-21 00:00:00.000
 2020-12-20 11:27:58,946 INFO 13532 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45122054ms at 2020-12-21 00:00:01.000
+2020-12-20 12:05:43,500 INFO 15924 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-20 12:05:43,500 INFO 15924 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-20 12:05:43,500 INFO 15924 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-20 12:05:43,500 INFO 15924 [egg-schedule]: register schedule F:\vscode\egg\app\schedule\catcheLocal.js
+2020-12-20 12:05:43,674 INFO 16232 [Timer] F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59056328ms at 2020-12-21 04:30:00.002
+2020-12-20 12:05:43,674 INFO 16232 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 42856326ms at 2020-12-21 00:00:00.000
+2020-12-20 12:05:43,675 INFO 16232 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 42857326ms at 2020-12-21 00:00:01.001
+2020-12-20 12:05:43,675 INFO 16232 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:05:48.675
+2020-12-20 12:05:48,676 INFO 16232 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:05:53.676
+2020-12-20 12:05:48,676 INFO 15924 [Job#1608437148675764821004257001] F:\vscode\egg\app\schedule\catcheLocal.js executing by app
+2020-12-20 12:05:50,772 ERROR 15924 [Job#1608437148675764821004257001] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 2093ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:04,099 INFO 18376 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-20 12:06:04,099 INFO 18376 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-20 12:06:04,099 INFO 18376 [egg-schedule]: register schedule F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-20 12:06:04,099 INFO 18376 [egg-schedule]: register schedule F:\vscode\egg\app\schedule\catcheLocal.js
+2020-12-20 12:06:04,268 INFO 17016 [Timer] F:\vscode\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59035734ms at 2020-12-21 04:30:00.002
+2020-12-20 12:06:04,268 INFO 17016 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 42835732ms at 2020-12-21 00:00:00.000
+2020-12-20 12:06:04,269 INFO 17016 [Timer] F:\vscode\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 42836732ms at 2020-12-21 00:00:01.001
+2020-12-20 12:06:04,269 INFO 17016 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:06:09.269
+2020-12-20 12:06:09,270 INFO 18376 [Job#1608437169269765026942390001] F:\vscode\egg\app\schedule\catcheLocal.js executing by app
+2020-12-20 12:06:09,462 ERROR 18376 [Job#1608437169269765026942390001] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 190ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:09,269 INFO 17016 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:06:14.269
+2020-12-20 12:06:14,271 INFO 18376 [Job#1608437174270765076950394002] F:\vscode\egg\app\schedule\catcheLocal.js executing by app
+2020-12-20 12:06:14,430 ERROR 18376 [Job#1608437174270765076950394002] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 158ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:14,270 INFO 17016 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:06:19.270
+2020-12-20 12:06:19,271 INFO 18376 [Job#1608437179271765126957970003] F:\vscode\egg\app\schedule\catcheLocal.js executing by app
+2020-12-20 12:06:19,434 ERROR 18376 [Job#1608437179271765126957970003] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 162ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:19,271 INFO 17016 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:06:24.271
+2020-12-20 12:06:24,273 INFO 18376 [Job#1608437184273765176976436004] F:\vscode\egg\app\schedule\catcheLocal.js executing by app
+2020-12-20 12:06:24,456 ERROR 18376 [Job#1608437184273765176976436004] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 181ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:24,273 INFO 17016 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:06:29.273
+2020-12-20 12:06:29,274 INFO 18376 [Job#1608437189274765226986679005] F:\vscode\egg\app\schedule\catcheLocal.js executing by app
+2020-12-20 12:06:29,437 ERROR 18376 [Job#1608437189274765226986679005] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 163ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:29,274 INFO 17016 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:06:34.274
+2020-12-20 12:06:34,274 INFO 18376 [Job#1608437194274765276991372006] F:\vscode\egg\app\schedule\catcheLocal.js executing by app
+2020-12-20 12:06:34,274 INFO 17016 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:06:39.274
+2020-12-20 12:06:35,429 ERROR 18376 [Job#1608437194274765276991372006] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 1153ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:39,276 INFO 18376 [Job#1608437199275765327005457007] F:\vscode\egg\app\schedule\catcheLocal.js executing by app
+2020-12-20 12:06:39,418 ERROR 18376 [Job#1608437199275765327005457007] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 142ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:39,276 INFO 17016 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:06:44.276
+2020-12-20 12:06:44,276 INFO 18376 [Job#1608437204276765377010203008] F:\vscode\egg\app\schedule\catcheLocal.js executing by app
+2020-12-20 12:06:44,435 ERROR 18376 [Job#1608437204276765377010203008] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 157ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:44,276 INFO 17016 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:06:49.276
+2020-12-20 12:06:49,277 INFO 18376 [Job#1608437209277765427016854009] F:\vscode\egg\app\schedule\catcheLocal.js executing by app
+2020-12-20 12:06:49,435 ERROR 18376 [Job#1608437209277765427016854009] F:\vscode\egg\app\schedule\catcheLocal.js execute failed, used 157ms. TypeError: Cannot read property 'set' of undefined
+    at module.exports.subscribe (F:\vscode\egg\app\schedule\catcheLocal.js:18:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-20 12:06:49,277 INFO 17016 [Timer] F:\vscode\egg\app\schedule\catcheLocal.js next time will execute after 5000ms at 2020-12-20 12:06:54.277
