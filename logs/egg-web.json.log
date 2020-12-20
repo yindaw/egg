@@ -1,0 +1,13 @@
+{"level":"INFO","date":"2020-12-20 15:01:18,496","pid":2380,"hostname":"USER-20200322BW","message":"[egg:logger] init all loggers with options: {\"dir\":\"F:\\\\vscode\\\\egg\\\\logs\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"INFO\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"duyi-app-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2020-12-20 15:01:18,523","pid":2380,"hostname":"USER-20200322BW","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2020-12-20 15:01:18,651","pid":2380,"hostname":"USER-20200322BW","message":"[egg-static] starting static serve /public/ -> F:\\vscode\\egg\\app\\public"}
+{"level":"INFO","date":"2020-12-20 15:01:18,653","pid":2380,"hostname":"USER-20200322BW","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2020-12-20 15:01:18,654","pid":2380,"hostname":"USER-20200322BW","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2020-12-20 15:01:18,655","pid":2380,"hostname":"USER-20200322BW","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2020-12-20 15:01:18,655","pid":2380,"hostname":"USER-20200322BW","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2020-12-20 15:01:18,656","pid":2380,"hostname":"USER-20200322BW","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2020-12-20 15:01:18,656","pid":2380,"hostname":"USER-20200322BW","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2020-12-20 15:01:18,657","pid":2380,"hostname":"USER-20200322BW","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2020-12-20 15:01:18,667","pid":2380,"hostname":"USER-20200322BW","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2020-12-20 15:01:18,681","pid":2380,"hostname":"USER-20200322BW","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2020-12-20 15:01:18,689","pid":2380,"hostname":"USER-20200322BW","message":"[egg:core] dump config after ready, 6ms"}
